@@ -1,2 +1,2 @@
-# mcmaster-xaringan
-A xaringan theme for McMaster University
+# mackin-xaringan
+A xaringan theme for Kinesiology at McMaster University
