@@ -118,9 +118,9 @@ a, a > code {
   /* title slide */
   /* add image and change bg color */
   .title-slide {
-    background-image: url(https://raw.githubusercontent.com/cartermaclab/mackin-xaringan/main/imgs/logos/mackin-color.png);
+    background-image: url(https://raw.githubusercontent.com/cartermaclab/mackin-xaringan/main/imgs/logos/mackin-stack-color.png);
     background-position: 9% 15%;
-    background-size: 100px;
+    background-size: 150px;
     background-color: #fff;
     padding-left: 100px;  /* delete this for 4:3 aspect ratio */
   }
@@ -169,9 +169,9 @@ a, a > code {
   /* SECTION DIVIDERS */
   /*~~~~~~~~~~~~~~~~~~*/
 
-  /* section divider red (light maroon) */
-  .title-slide-section-red {
-    background-color: #ac1455;
+  /* section divider gold (heritage gold) */
+  .title-slide-section-gold {
+    background-color: #fdbf57;
     padding-left: 100px;  /* delete this for 4:3 aspect ratio */
   }
 
