@@ -220,6 +220,11 @@ a, a > code {
     padding-left: 100px;  /* delete this for 4:3 aspect ratio */
   }
 
+   /* Bigger font size for slide text */
+  .remark-slide-content {
+    font-size: 28px;
+  }
+
   /* color adjustments for text */
   /* make bold syntax compile to heritage maroon */
   strong {
@@ -258,6 +263,10 @@ a, a > code {
 
   /* Color adjustments to headers */
   h1 {
+    color: #7a003c;
+  }
+  
+  h2 {
     color: #7a003c;
   }
 

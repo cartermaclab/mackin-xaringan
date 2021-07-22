@@ -17,7 +17,7 @@ a, a > code {
     position: absolute;
     bottom: 1em;
     padding-right: 4em;
-    font-size: 95%;
+    font-size: 65%;
   }
 
   /* important code slightly red */
@@ -59,12 +59,12 @@ a, a > code {
 
   .pull-left {
     float: left;
-    width: 45%;
+    width: 47.5%;
   }
 
   .pull-right {
     float: right;
-    width: 45%;
+    width: 47.5%;
   }
 
   /*
@@ -217,7 +217,13 @@ a, a > code {
 
   /* Add padding to all slides for 16:9 aspect ratio */
   .remark-slide-content {
-    padding-left: 100px;  /* delete this for 4:3 aspect ratio */
+    padding-left: 80px;  /* delete this for 4:3 aspect ratio */
+    padding-right: 80px;
+  }
+
+   /* Bigger font size for slide text */
+  .remark-slide-content {
+    font-size: 26px;
   }
 
   /* color adjustments for text */
@@ -239,6 +245,7 @@ a, a > code {
   /* Add grey tag */
   .grey {
     color: #aeb4b8;
+    font-weight: bold;
   }
 
   .lightgrey {
@@ -261,8 +268,14 @@ a, a > code {
     color: #7a003c;
   }
 
+  h2 {
+    color: #7a003c;
+  }
+
   h3 {
     color: #5e6a71;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
   }
 
   /* Font size tags */
@@ -270,6 +283,9 @@ a, a > code {
     font-size: 1.5em;
   }
 
+  .tiny {
+    font-size: 65%;
+  }
   /* mackin blockquote */
   mackin-blockquote {
     display: block;
