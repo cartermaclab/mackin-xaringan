@@ -17,7 +17,7 @@ a, a > code {
     position: absolute;
     bottom: 1em;
     padding-right: 4em;
-    font-size: 95%;
+    font-size: 65%;
   }
 
   /* important code slightly red */
@@ -40,7 +40,7 @@ a, a > code {
 
   /* Two-column layout (slightly wider for aspect ration) */
   .left-column {
-    color: #777;
+    /*color: #777;*/
     width: 25%;
     height: 92%;
     float: left;
@@ -50,21 +50,37 @@ a, a > code {
     color: #000;
   }
 
-  /* slightly thiner to suppor aspect ration */
+  /* slightly thiner to support aspect ration */
   .right-column {
     width: 70%;
     float: right;
-    padding-top: 1em;
+    /*padding-top: 1em; */
   }
 
   .pull-left {
     float: left;
-    width: 45%;
+    width: 47.5%;
   }
 
   .pull-right {
     float: right;
-    width: 45%;
+    width: 47.5%;
+  }
+
+  .left-third {
+    float: left;
+    width: 35%;
+  }
+
+  .wide-left {
+    width: 70%;
+    float: left;
+  }
+
+  .narrow-right {
+    width: 27.5%;
+    height: 92%;
+    float: right;
   }
 
   /*
@@ -217,12 +233,13 @@ a, a > code {
 
   /* Add padding to all slides for 16:9 aspect ratio */
   .remark-slide-content {
-    padding-left: 100px;  /* delete this for 4:3 aspect ratio */
+    padding-left: 80px;  /* delete this for 4:3 aspect ratio */
+    padding-right: 80px;
   }
 
    /* Bigger font size for slide text */
   .remark-slide-content {
-    font-size: 28px;
+    font-size: 26px;
   }
 
   /* color adjustments for text */
@@ -232,7 +249,12 @@ a, a > code {
   }
 
   .mackinred {
-    color: #ac1455;
+    color: #7a003c;
+  }
+
+  .gold {
+    color: #fdbf57;
+    font-weight: bold;
   }
 
   /* Add blue tag of brighter world blue */
@@ -241,13 +263,21 @@ a, a > code {
     font-weight: bold;
   }
 
+  .cyan {
+    color: #63a8bf;
+    font-weight: bold;
+  }
+
   /* Add grey tag */
   .grey {
-    color: #aeb4b8;
+    color: #5e6a71;
+    /* -webkit-text-stroke: 1.5px black; */
+    /* font-weight: bold; */
   }
 
   .lightgrey {
-    color: #dbdbdd;
+    color: #aeb4b8;
+    -webkit-text-stroke: 1.5px black;
   }
 
   /* Force black */
@@ -265,13 +295,17 @@ a, a > code {
   h1 {
     color: #7a003c;
   }
-  
+
   h2 {
     color: #7a003c;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
   }
 
   h3 {
     color: #5e6a71;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
   }
 
   /* Font size tags */
@@ -279,6 +313,9 @@ a, a > code {
     font-size: 1.5em;
   }
 
+  .tiny {
+    font-size: 65%;
+  }
   /* mackin blockquote */
   mackin-blockquote {
     display: block;
